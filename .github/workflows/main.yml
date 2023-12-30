@@ -22,7 +22,7 @@ jobs:
         run: docker login -u ammarqassem --password dckr_pat_uXovz50EWYRhoDF3VfvgGqHPCno
 
       - name: Build the Docker image
-        run: docker build -t ammarqassem/p5 .
+        run: docker build -t ammarqassem/ammar .
 
       - name: Push the Docker image to Docker Hub
-        run: docker push ammarqassem/p5 
+        run: docker push ammarqassem/ammar	
